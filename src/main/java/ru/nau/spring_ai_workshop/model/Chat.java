@@ -27,7 +27,6 @@ public class Chat {
     @CreationTimestamp
     private LocalDateTime createdAt;
 
-
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL,orphanRemoval = true)
     @JoinColumn(name = "chat_id")
     private List<ChatEntry> history = new ArrayList<>();
