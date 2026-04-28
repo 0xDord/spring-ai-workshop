@@ -82,6 +82,9 @@ spring:
 
 Приложение будет доступно по адресу: `http://localhost:8080`
 
+## Формирование контекста RAG
+Для корректной работы advisor с RAG, нужно наполнить данными [knowledgebase](src/main/resources/knowledgebase)
+
 ## 📁 Структура проекта
 
 ```
